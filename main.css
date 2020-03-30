@@ -1,0 +1,42 @@
+.bx-popup-ctn{
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+}
+.bx-popup-tip-container {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    overflow: hidden;
+    pointer-events: none;
+}
+.bx-popup-tip {
+    width: 17px;
+    background: #fff;
+    height: 17px;
+    padding: 1px;
+    margin: -10px auto 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.bx-popup-header-ctn{
+    background: #090302;
+    color: #fff;
+    font-size: 15px;
+    padding: 4px;
+}
+.bx-popup-content-ctn{
+    padding:15px ;
+}
+.leaflet-popup-close-button{
+    user-select: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    cursor: pointer;
+}
